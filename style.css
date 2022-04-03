@@ -1,0 +1,57 @@
+#show_sketch{
+    float: right;
+    background-color: lightgoldenrodyellow;
+    color: lightcoral;
+}
+body{
+    background-color: skyblue;
+}
+h1{
+    color:lightcoral;
+    background-color:lightgoldenrodyellow
+}
+canvas{
+    border: 1px solid white;
+    border-radius: 20px;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite ;
+    margin-top: 50px;
+
+}
+@keyframes animation{
+    from{box-shadow: 1px 1px 40px gray;}
+    to{box-shadow: 1px 1px 40px white;}
+}
+#score{
+    margin: 10px;
+    font-size: 35px;
+    float:right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#timer{
+   
+    font-size: 35px;
+    float:left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#label,#confidence{
+   
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#sketch_name{
+   
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+}
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px red;
+    margin-top: 100px;
+}
+
